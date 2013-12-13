@@ -1,0 +1,72 @@
+/*slider*/
+	.container{
+	width: 100%;
+	height: 426px;
+	position: relative;
+	overflow:hidden;
+	}
+
+	.container div{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	font-size:400%;
+	text-align:center;
+	}
+
+	#first{
+	opacity: 1;
+	-webkit-animation: slide_first 20s linear infinite;
+	}
+
+	#second{
+	opacity: 0;
+	-webkit-animation: slide_second 20s linear infinite;
+	}
+
+	#third{
+	opacity: 0;
+	-webkit-animation: slide_third 20s linear infinite;
+	}
+
+	#fourth{
+	opacity: 0;
+	-webkit-animation: slide_fourth 20s linear infinite;
+	}
+
+
+	@-webkit-keyframes slide_first{
+	0% { opacity: 1; left: 0%; }
+	20% { opacity: 1; left: 0%;}
+	25% { opacity: 0; left: -100%;}
+	95% { opacity: 0; left: 0%;}
+	100% { opacity: 1; left: 0%;}
+	}
+
+	@-webkit-keyframes slide_second{
+	0% { opacity: 0; left: -100%;}
+	20% { opacity: 0; left: 0%;}
+	25% { opacity: 1; left: 0%;}
+	45% { opacity: 1; left: 0%;}
+	50% { opacity: 0;left: -100%;}
+	100% { opacity: 0; left: -100%;}
+	}
+
+	@-webkit-keyframes slide_third{
+	0% { opacity: 0; left: -100%;}
+	45% { opacity: 0; left: 0%;}
+	50% { opacity: 1; left: 0%;}
+	70% { opacity: 1; left: 0%;}
+	75% { opacity: 0;left: -100%;}
+	100% { opacity: 0; left: -100%;}
+	}
+
+	@-webkit-keyframes slide_fourth{
+	0% { opacity: 0; left: -100%;}
+	70% { opacity: 0; left: 0%;}
+	75% { opacity: 1; left: 0%;}
+	95% { opacity: 1; left: 0%;}
+	100% { opacity: 0; left: -100%;}
+	}

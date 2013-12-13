@@ -1,0 +1,1 @@
+a:3:{s:6:"boeger";s:6:"Bøger";s:7:"smykker";s:7:"Smykker";s:4:"toej";s:4:"Tøj";}

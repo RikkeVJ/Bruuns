@@ -1,0 +1,1 @@
+a:2:{s:10:"butik_navn";s:5:"Quint";s:9:"placering";s:2:"B2";}
