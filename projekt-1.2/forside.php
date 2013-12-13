@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Untitled Document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/reset.css" />
 <link rel="stylesheet" href="css/style.css" />
 <link rel="shortcut icon" <a href="images/favicon.ico"></a>
@@ -16,10 +17,10 @@
     </a>
     
     <div class="container">
-    	<div id="fourth"><img src="images/slider1.jpg" /></div>
-        <div id="third"><img src="images/slider2.jpg" /></div>
-        <div id="second"><img src="images/slider3.jpg" /></div>
-        <div id="first"><img src="images/slider4.png" /></div>
+    	<div id="fourth"><a href="findvej.php"</a><img src="images/slider4.png" /></div>
+        <div id="third"><a href="aabningstider.php"</a><img src="images/slider3.jpg" /></div>
+        <div id="second"><a href="events.php"</a><img src="images/slider2.jpg" /></div>
+        <div id="first"><a href="kontakt.php"</a><img src="images/slider1.jpg" /></div>
 	</div>
 
     <nav id="nav"> 
