@@ -12,6 +12,8 @@
 <?php
 	$kategori_index = unserialize(file_get_contents("butiksdata/index.txt"));
 	echo $kategori_index;
+		"Bahne" => array(
+			"kort" => "<a href='kort.php'>Findes på plan 4&5</a>",
 ?>
 </body>
 </html>
