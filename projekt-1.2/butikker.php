@@ -16,7 +16,7 @@
 			"telefon" => "38 40 50 11",
 			"web" => "<a href='http://www.bahne.dk/' target='_blank'>www.bahne.dk</a>",
 			"kort" => "<a href='kort.php'>Findes på plan 4&5</a>",
-			"logo" => "<img src='images/logoer/bahne_logo.png'/>"
+			"logo" => "<img src='images/logoer/bahne_logo.png' alt='bahne logo'/>"
 			),
 		"Blitz" => array(
 			"telefon" => "32 19 50 50",
