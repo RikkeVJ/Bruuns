@@ -9,97 +9,97 @@
 			"telefon" => "38 40 50 11",
 			"web" => "<a href='http://www.bahne.dk/' target='_blank'>www.bahne.dk</a>",
 			"kort" => "<a href='kort.php'>Findes på plan 4&5</a>",
-			"logo" => "<img src='images/logoer/bahne_logo.png' alt='bahne logo'/>"
+			"logo" => "<img src='images/logoer/bahne_logo.png' alt='Bahne logo'/>"
 			),
 		"Blitz" => array(
 			"telefon" => "32 19 50 50",
 			"web" => "",
 			"kort" => "<a href='kort.php'>Findes på plan 5</a>",
-			"logo" => "<img src='images/logoer/blitz_logo.png'/>" 
+			"logo" => "<img src='images/logoer/blitz_logo.png' alt='Blitz logo'/>" 
 			),
 		"Boxer" => array(
 			"telefon" => "86 18 20 00",
 			"web" => "<a href='http://www.boxer.dk/' target='_blank'>www.boxer.dk</a>",
 			"kort" => "<a href='kort.php'>Findes på plan 5</a>",
-			"logo" => "<img src='images/logoer/boxer_logo.png'/>"
+			"logo" => "<img src='images/logoer/boxer_logo.png' alt='Boxer logo'/>"
 			),
 		"Butler Loftet" => array(
 			"telefon" => "86 20 23 40",
 			"web" => "<a href='http://www.butler-loftet.dk/' target='_blank'>www.butler-loftet.dk</a>",
 			"kort" => "<a href='kort.php'>Findes på plan 5</a>",
-			"logo" => "<img src='images/logoer/butlerloftet_logo.png'/>"
+			"logo" => "<img src='images/logoer/butlerloftet_logo.png' alt='Butler loftet logo'/>"
 			),
 		"Carlings" => array(
 			"telefon" => "86 17 05 31",
 			"web" => "<a href='http://www.carlings.com/' target='_blank'>www.carlings.com</a>",
 			"kort" => "<a href='kort.php'>Findes på plan 5</a>",
-			"logo" => "<img src='images/logoer/carlings_logo.png'/>"
+			"logo" => "<img src='images/logoer/carlings_logo.png' alt='Carlings logo'/>"
 			),
 		"Change" => array(
 			"telefon" => "86 17 07 40",
 			"web" => "<a href='http://www.changeofscandinavia.com/' target='_blank'>www.changeofscandinavia.com</a>",
 			"kort" => "<a href='kort.php'>Findes på plan 5</a>",
-			"logo" => "<img src='images/logoer/change_logo.png'/>"
+			"logo" => "<img src='images/logoer/change_logo.png' alt='Change logo'/>"
 			),
 		"Companys" => array(
 			"telefon" => "86 19 30 35",
 			"web" => "<a href='http://www.iccompanys.com/' target='_blank'>www.iccompanys.com</a>",
 			"kort" => "<a href='kort.php'>Findes på plan 5</a>",
-			"logo" => "<img src='images/logoer/companys_logo.png'/>"
+			"logo" => "<img src='images/logoer/companys_logo.png' alt='Companys logo'/>"
 			),
 		"Designersmarket" => array(
 			"telefon" => "86 94 94 86",
 			"web" => "<a href='http://www.designersmarket.dk/' target='_blank'>www.designersmarket.dk</a>",
 			"kort" => "<a href='kort.php'>Findes på plan 5</a>",
-			"logo" => "<img src='images/logoer/designersmarket_logo.png'/>"
+			"logo" => "<img src='images/logoer/designersmarket_logo.png' alt='Designersmarket logo'/>"
 			),
 		"Esprit" => array(
 			"telefon" => "87 30 30 82",
 			"web" => "<a href='http://www.esprit.com/' target='_blank'>www.esprit.com</a>",
 			"kort" => "<a href='kort.php'>Findes på plan 5</a>",
-			"logo" => "<img src='images/logoer/esprit-Logo.png'/>"
+			"logo" => "<img src='images/logoer/esprit-Logo.png' alt='Espirit logo'/>"
 			),
 		"Gant" => array(
 			"telefon" => "86 20 22 00",
 			"web" => "<a href='http://www.gant.com/' target='_blank'>www.gant.com</a>",
 			"kort" => "<a href='kort.php'>Findes på plan 5</a>",
-			"logo" => "<img src='images/logoer/gant_logo.png'/>"
+			"logo" => "<img src='images/logoer/gant_logo.png' alt='Gant logo'/>"
 			),
 		"H&M" => array(
 			"telefon" => "70 10 23 31",
 			"web" => "<a href='http://www.hm.com/' target='_blank'>www.hm.com</a>",
 			"kort" => "<a href='kort.php'>Findes på plan 4</a>",
-			"logo" => "<img src='images/logoer/hm-logo.png'/>"
+			"logo" => "<img src='images/logoer/hm-logo.png' alt='H&M logo'/>"
 			),
 		"H&M Divided" => array(
 			"telefon" => "36 97 86 70",
 			"web" => "<a href='http://www.hm.com/' target='_blank'>www.hm.com</a>",
 			"kort" => "<a href='kort.php'>Findes på plan 5</a>",
-			"logo" => "<img src='images/logoer/dividedhm_logo.png'/>"
+			"logo" => "<img src='images/logoer/dividedhm_logo.png' alt='H&M Divided logo'/>"
 			),
 		"Hilfiger Denim" => array(
 			"telefon" => "86 99 66 33",
 			"web" => "<a href='http://www.hilfigerdenim.com/' target='_blank'>www.hilfigerdenim.com</a>",
 			"kort" => "<a href='kort.php'>Findes på plan 5</a>",
-			"logo" => "<img src='images/logoer/hilfigerdenim_logo.png'/>"
+			"logo" => "<img src='images/logoer/hilfigerdenim_logo.png' alt='Hilfiger Denim logo'/>"
 			),
 		"Hunkemöller" => array(
 			"telefon" => "51 85 39 09",
 			"web" => "<a href='http://www.hunkemoller.com/' target='_blank'>www.hunkemoller.com</a>",
 			"kort" => "<a href='kort.php'>Findes på plan 5</a>",
-			"logo" => "<img src='images/logoer/hunkemoller_logo.png'/>"
+			"logo" => "<img src='images/logoer/hunkemoller_logo.png' alt='Hunkemöller logo'/>"
 			),
 		"Levi's Store" => array(
 			"telefon" => "86 17 26 68",
 			"web" => "<a href='http://www.levi.com/' target='_blank'>www.levi.com</a>",
 			"kort" => "<a href='kort.php'>Findes på plan 5</a>",
-			"logo" => "<img src='images/logoer/levis_logo.png'/>"
+			"logo" => "<img src='images/logoer/levis_logo.png' alt='Levi's Store logo'/>"
 			),
 		"Message" => array(
 			"telefon" => "96 23 22 81",
 			"web" => "<a href='http://www.message.dk/' target='_blank'>www.message.dk</a>",
 			"kort" => "<a href='kort.php'>Findes på plan 5</a>",
-			"logo" => "<img src='images/logoer/message_logo.png'/>"
+			"logo" => "<img src='images/logoer/message_logo.png' alt='Message logo'/>"
 			),
 		"Modström" => array(
 			"telefon" => "86 20 18 80",
@@ -111,25 +111,25 @@
 			"telefon" => "86 13 73 03",
 			"web" => "<a href='http://www.mr.dk/aarhus-brabrand' target='_blank'>www.mr.dk/aarhus-brabrand</a>",
 			"kort" => "<a href='kort.php'>Findes på plan 5</a>",
-			"logo" => "<img src='images/logoer/mrhannesbo_logo.png'/>"
+			"logo" => "<img src='images/logoer/mrhannesbo_logo.png' alt='Mr Hannesbo logo'/>"
 			),
 		"Pieces" => array(
 			"telefon" => "23 68 00 92",
 			"web" => "<a href='http://www.pieces.com/' target='_blank'>www.pieces.com</a>",
 			"kort" => "<a href='kort.php'>Findes på plan 5</a>",
-			"logo" => "<img src='images/logoer/pieces_logo.png'/>"
+			"logo" => "<img src='images/logoer/pieces_logo.png' alt='Pieces logo'/>"
 			),
 		"qUINTESS" => array(
 			"telefon" => "86 25 62 08",
 			"web" => "<a href='http://www.quintess.dk' target='_blank'>www.quintess.dk</a>",
 			"kort" => "<a href='kort.php'>Findes på plan 5</a>",
-			"logo" => "<img src='images/logoer/quintess_logo.png'/>"
+			"logo" => "<img src='images/logoer/quintess_logo.png' alt='qUINTESS logo'/>"
 			),
 		"Saint Tropez" => array(
 			"telefon" => "86 19 89 66",
 			"web" => "<a href='http://www.sainttropez.com' target='_blank'>www.sainttropez.com</a>",
 			"kort" => "<a href='kort.php'>Findes på plan 5</a>",
-			"logo" => "<img src='images/logoer/sainttropez_logo.png'/>"
+			"logo" => "<img src='images/logoer/sainttropez_logo.png' alt='Saint Tropez logo'/>"
 			),
 		"Samsøe & Samsøe" => array(
 			"telefon" => "86 25 11 18",
