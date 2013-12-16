@@ -11,6 +11,17 @@
 
 	<h2>Find vej</h2>
        
+       <form>
+<p align="center"><b>Select a Site </b>
+<select id="setit" style="color: #0000FF" size="1" name="test">
+<option value="">Select one</option>
+    <option value="http://www.altavista.com">AltaVista</option>
+    <option value="http://www.yahoo.com">Yahoo</option>
+     <option value="http://www.google.com">Google</option></select>
+     <input type="button" value="Go"
+onclick="window.open(setit.options[setit.selectedIndex].value)">
+</p></form>
+       
     <p>Bruun's Galleri ligger tæt på Banegården, busstationen og har sin egen p-kælder. <br>
     Er du i bil, kan du køre via Værkmestergade fra Spanien. Den fører dig direkte ind til parkeringsanlægget med 1000 p-pladser. Udkørsel sker også via Spanien. <br>
     Du kan komme til alle herlighederne i en fart uanset transportmiddel. Fra Aarhus hovedbanegård er der direkte adgang, hvis du kommer med tog. <br>
