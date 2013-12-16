@@ -129,20 +129,21 @@ body{
 .kontaktoverskrift{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:24px;
-	margin-bottom:2%;
-	margin-left:3%;
-	margin-top:4%;
+	margin-left:1%;
+	margin-top:2%;
 }
 .adresse{
-	
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:18px;
+	color:#000;
+	text-decoration:none;
+	margin-left:1%;	
 }
 .centerinfo{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:18px;
 	color:#000;
 	text-decoration:none;
-	margin-left:3%;
-#formular{
 	margin-left:1%;
 }
 label, input, select{
@@ -152,10 +153,28 @@ label{
 	clear:both;
 	width:150px;
 	text-align:right;
-	margin-right:5px;
+	margin-left:2%;
 	padding-top:6px;
 	font-family: 'Source Sans Pro', sans-serif;
 	color:#FFF;
+}
+#navn{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:18px;
+	color:#000;
+	margin-left:3%;
+}
+#email{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:18px;
+	color:#000;
+	margin-left:3%;
+}
+#besked{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:18px;
+	color:#000;
+	margin-left:3%;
 }
 form{
 	margin:1em;
@@ -183,6 +202,13 @@ textarea{
 	width:200px;
 	height:200px;
 	border: 1px #000 solid;
+}
+/*Modtaget siden*/
+.modtaget{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:24px;
+	color:#000;
+	padding:7% 0 15% 1%; 
 }
 /*Eventside*/
 .eventimg{
