@@ -6,6 +6,7 @@
 <title>Kontakt</title>
 <link rel="stylesheet" href="css/reset.css" />
 <link rel="stylesheet" href="css/style.css" />
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -24,13 +25,13 @@
 	<form id="formular" action="modtag.php" method="post">
     
     	<label for="navn">Navn</label>
-    	<input type="text" id="navn" name="navn" requiered placeholder="Skriv dit navn her"></input>
+    	<input type="text" id="navn" name="navn" requiered placeholder=" Skriv dit navn her"></input>
         
     	<label for="email">Email</label>
-    	<input type="email" id="email" name="mailadresse" requiered placeholder="Skriv din email her"></input>
+    	<input type="email" id="email" name="mailadresse" requiered placeholder=" Skriv din email her"></input>
         
     	<label for="besked">Besked</label>
-    	<textarea id="besked" name="besked" required placeholder="Skriv din besked her"></textarea>
+    	<textarea id="besked" name="besked" required placeholder=" Skriv din besked her"></textarea>
                
     	<label for="submitknap">&nbsp;</label>
     	<input type="submit" id="submitknap" name="sendformularknap" value="Send besked"/>

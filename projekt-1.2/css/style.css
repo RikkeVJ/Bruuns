@@ -84,7 +84,7 @@ label{
 	text-align:right;
 	margin-right:5px;
 	padding-top:6px;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color:#FFF;
 }
 
@@ -97,7 +97,7 @@ form{
 
 #submitknap{
 	margin-top:5px;
-	background-color: #CCC;
+	background-color: #555354;
 	color:#fff;
 	height:40px;
 	font-size:16px;
@@ -110,11 +110,11 @@ input{
 	width:200px;
 	height:25px;
 	margin-bottom:5px;
-	border:2px #000 solid;
+	border:1px #000 solid;
 }
 
 textarea{
 	width:200px;
 	height:200px;
-	border: 2px #000 solid;
+	border: 1px #000 solid;
 }
