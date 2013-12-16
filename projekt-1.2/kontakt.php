@@ -21,7 +21,7 @@
             <p class="centerinfo">Det er også her du kan købe gavekort, billetter til vores arrangementer og få udleveret diplom hvis du har gennemført vores børnespil etc.</p>   
 	</article>
 	
-	<form action="modtag.php" method="post">
+	<form id="formular" action="modtag.php" method="post">
     
     	<label for="navn">Navn</label>
     	<input type="text" id="navn" name="navn" requiered placeholder="Skriv dit navn her"></input>

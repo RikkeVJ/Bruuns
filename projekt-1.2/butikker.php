@@ -796,6 +796,8 @@
 		echo "<h2>$butiknavn</h2>";
 		$telefon = $butikdata["telefon"];
 		echo "<p>$telefon</p>";
+		$logo = $butikdata["logo"];
+		echo "$logo";
 	}
 }
 ?>

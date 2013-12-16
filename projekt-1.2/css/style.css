@@ -71,3 +71,50 @@
 	100% { opacity: 0; left: -100%;}
 	}
 /*kontaktside*/
+#formular{
+	margin-left:1%;
+}
+label, input, select{
+	float:left;
+}
+
+label{
+	clear:both;
+	width:150px;
+	text-align:right;
+	margin-right:5px;
+	padding-top:6px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+}
+
+form{
+	margin:1em;
+	overflow:hidden;
+	width:400px;
+	padding:0.5em;
+}
+
+#submitknap{
+	margin-top:5px;
+	background-color: #CCC;
+	color:#fff;
+	height:40px;
+	font-size:16px;
+	width:204px;
+	padding-bottom:4px;
+	
+}
+
+input{
+	width:200px;
+	height:25px;
+	margin-bottom:5px;
+	border:2px #000 solid;
+}
+
+textarea{
+	width:200px;
+	height:200px;
+	border: 2px #000 solid;
+}
