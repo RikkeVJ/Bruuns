@@ -126,13 +126,28 @@ body{
 	margin-left:1%;
 }
 /*kontaktside*/
+.kontaktoverskrift{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:24px;
+	margin-bottom:2%;
+	margin-left:3%;
+	margin-top:4%;
+}
+.adresse{
+	
+}
+.centerinfo{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:18px;
+	color:#000;
+	text-decoration:none;
+	margin-left:3%;
 #formular{
 	margin-left:1%;
 }
 label, input, select{
 	float:left;
 }
-
 label{
 	clear:both;
 	width:150px;
@@ -142,14 +157,12 @@ label{
 	font-family: 'Source Sans Pro', sans-serif;
 	color:#FFF;
 }
-
 form{
 	margin:1em;
 	overflow:hidden;
 	width:400px;
 	padding:0.5em;
 }
-
 #submitknap{
 	margin-top:5px;
 	background-color: #555354;
@@ -160,14 +173,12 @@ form{
 	padding-bottom:4px;
 	
 }
-
 input{
 	width:200px;
 	height:25px;
 	margin-bottom:5px;
 	border:1px #000 solid;
 }
-
 textarea{
 	width:200px;
 	height:200px;
@@ -196,4 +207,29 @@ textarea{
 	color:#000;
 	text-decoration:none;
 	margin-left:3%;
+}
+/*Find vej*/
+#findvejoverskrift{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:24px;
+	margin-bottom:2%;
+	margin-left:3%;
+	margin-top:4%;
+}
+.findvejtekst{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:18px;
+	color:#000;
+	text-decoration:none;
+	margin-left:3%;
+}
+#pil{
+	width:40%;
+	float:left;
+}
+#mapskort{
+	width:40%;
+	float:left;
+	margin-left:10%;
+	margin-top:5%;
 }
