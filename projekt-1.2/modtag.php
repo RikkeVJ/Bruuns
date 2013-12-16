@@ -1,9 +1,7 @@
 <?php
 	$pagetitle ="Tak!";
-	include("includes/header.inc.php");
-	include("includes/menu.inc.php");
-	include("includes/modtaget.inc.php");	
-	include("includes/footer.inc.php");
+	//include("includes/header.inc.php");
+	//include("includes/footer.inc.php");
 ?> 
 
 <?php
@@ -19,10 +17,8 @@
 	
 	if($success){
 		echo "<h1>Du har nu sendt en besked, tak!</h1>";
-		echo "<img src='images/sendtkorrekt.jpg'>";
 	}
 	else{
 		echo "<h1>Fejl - Noget gik galt!</h1>";
-		echo "<img src='images/sendtforkert.jpg'>";
 	}
 ?>
