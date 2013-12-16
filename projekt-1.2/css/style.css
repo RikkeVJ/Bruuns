@@ -1,9 +1,27 @@
+/*forside*/
+body{
+	width:100%;
+	background-color:#555453;
+}
+.baggrund{
+	background-image:url(../images/baggrund.jpg);
+	width:96%;
+	margin-left:2%;
+	margin-top:2%;
+	background-repeat:repeat-y;
+}
+.logo{
+	width:90%;
+	margin-left:5%;
+	margin-top:2%;
+}
 /*slider*/
 	.container{
 	width: 100%;
-	height: 426px;
+	height: 250px;
 	position: relative;
 	overflow:hidden;
+	margin-top:2%;
 	}
 
 	.container div{
@@ -14,6 +32,9 @@
 	left: 0%;
 	font-size:400%;
 	text-align:center;
+	}
+	.container img{
+		max-width:420px;
 	}
 
 	#first{
@@ -70,6 +91,40 @@
 	95% { opacity: 1; left: 0%;}
 	100% { opacity: 0; left: -100%;}
 	}
+/*Forsideknapper*/
+.storknap{
+	width:40%;
+	float:left;
+	margin:0 5% 3% 5%;
+	background-color:#555453;
+	height:60px;
+	border-radius:10px;
+	padding-top:26px;		
+}
+
+.forsideknap{
+	display:block;
+	width:100%;
+	text-decoration:none;
+	text-align:center;
+	color:#fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:24px;
+}
+.forsideknapbund{
+	display:block;
+	width:100%;
+	text-decoration:none;
+	text-align:center;
+	color:#fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:20px;
+}
+/*Header undersider*/
+.logounderside{
+	margin-top:2%;
+	margin-left:1%;
+}
 /*kontaktside*/
 #formular{
 	margin-left:1%;
@@ -117,4 +172,15 @@ textarea{
 	width:200px;
 	height:200px;
 	border: 1px #000 solid;
+}
+/*Eventside*/
+.eventimg{
+	width:168px;
+	padding-left:3%;
+	padding-top:2%;
+}
+.streg{
+	width:100%;
+	border-top: solid 2px #555453;
+	margin-top:1%;
 }

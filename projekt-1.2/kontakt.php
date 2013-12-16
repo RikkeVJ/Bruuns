@@ -1,15 +1,7 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kontakt</title>
-<link rel="stylesheet" href="css/reset.css" />
-<link rel="stylesheet" href="css/style.css" />
-<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-</head>
-
-<body>
+<?php
+	$pagetitle ="Kontakt";
+	include("includes/header.inc.php");
+?> 
 	<h1>Kontakt</h1><hr>
 	<article>
     	<h2 class="kontaktoverskrift">Bruun's Galleri</h2>
@@ -37,5 +29,6 @@
     	<input type="submit" id="submitknap" name="sendformularknap" value="Send besked"/>
 	</form>
 
-</body>
-</html>
+<?php
+	include("includes/footer.inc.php");
+?>

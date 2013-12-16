@@ -1,14 +1,8 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Åbningstider</title>
-<link rel="stylesheet" href="../../projekt 1.2/css/reset.css" />
-<link rel="stylesheet" href="../../projekt 1.2/css/style.css" />
-</head>
-
-<body>
-	<p>Åbningstider</p>
+<?php
+	$pagetitle ="Åbningstider";
+	include("includes/header.inc.php");
+?> 
+	<h1>Åbningstider</h1>
     
     
 <table>
@@ -57,6 +51,7 @@
             <td>8.00-20.00</td>
        	</tr>
       </table>      
+<?php
+	include("includes/footer.inc.php");
+?>
 
-</body>
-</html>

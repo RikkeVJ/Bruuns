@@ -1,10 +1,7 @@
 <?php
 	$pagetitle ="Tak!";
-	//include("includes/header.inc.php");
-	//include("includes/footer.inc.php");
-?> 
+	include("includes/header.inc.php");
 
-<?php
 	$navn = $_POST["navn"];
 	$emailadresse = $_POST["mailadresse"];
 	$besked = $_POST["besked"];
@@ -21,4 +18,6 @@
 	else{
 		echo "<h1>Fejl - Noget gik galt!</h1>";
 	}
+
+	include("includes/footer.inc.php");
 ?>

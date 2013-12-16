@@ -1,15 +1,9 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-<link rel="stylesheet" href="css/reset.css" />
-<link rel="stylesheet" href="css/style.css" />
-</head>
+<?php
+	$pagetitle ="Find Vej";
+	include("includes/header.inc.php");
+?> 
 
-<body>
-
-	<h2>Find vej</h2>
+	<h1>Find vej</h1>
        
     <p>Bruun's Galleri ligger tæt på Banegården, busstationen og har sin egen p-kælder. <br>
     Er du i bil, kan du køre via Værkmestergade fra Spanien. Den fører dig direkte ind til parkeringsanlægget med 1000 p-pladser. Udkørsel sker også via Spanien. <br>
@@ -24,11 +18,10 @@
     
     <div id="kort">
         <a target="_blank" href="https://maps.google.dk/maps?f=q&source=s_q&hl=en&geocode=&abauth=52a98c1eVvELu1lGxU-FvluIc9vN3a4qq0c&authuser=0&q=M.+P.+Bruuns+Gade+25,+Aarhus&aq=&vps=3&jsv=471c&sll=56.149159,10.203702&sspn=0.00698,0.021136&vpsrc=0&g=M.+P.+Bruuns+Gade+25,+Aarhus&num=10">
-			<img src="images/kort.png"</a>
+			<img src="images/kortoverbruuns.png" alt="link til kort"/>
         </a>
 	</div>
-        
-        
-</body>
-</html>
+<?php
+	include("includes/footer.inc.php");
+?>
 

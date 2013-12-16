@@ -1,14 +1,7 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Butikker</title>
-<link rel="stylesheet" href="css/reset.css" />
-<link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
+<?php
+	$pagetitle ="Butikker";
+	include("includes/header.inc.php");
+?> 
 <?php
 	$butikker = array(
 	"Damemode" => array(
@@ -192,9 +185,7 @@
 			"kort" => "<a href='kort.php'>Findes på plan 5</a>",
 			"logo" => "<img src='images/logoer/vila_logo.png'/>"
 			),
-		)
-	);
-	$butikker = array(
+		),
 	"Herremode" => array(
 		"!Solid" => array(
 			"telefon" => "86 19 99 12",
@@ -322,9 +313,7 @@
 			"kort" => "<a href='kort.php'>Findes på plan 5</a>",
 			"logo" => "<img src='images/logoer/tigerofsweden_logo.png'/>"
 			),
-		)	
-	);
-	$butikker = array(
+		),	
 	"Teen & Børn" => array(
 		"Accessorize" => array(
 			"telefon" => "86 13 50 35",
@@ -380,9 +369,7 @@
 			"kort" => "<a href='kort.php'>Findes på plan 5</a>",
 			"logo" => "<img src='images/logoer/outfittersnation_logo.png'/>"
 			),
-		)
-	);
-	$butikker = array(
+		),
 	"Sko" => array(
 		"Bianco Footwear" => array(
 			"telefon" => "86 25 29 00",
@@ -426,9 +413,7 @@
 			"kort" => "<a href='kort.php'>Findes på plan 4</a>",
 			"logo" => "<img src='images/logoer/poshshoes_logo.png'/>"
 			),
-		)
-	);
-	$butikker = array(
+		),
 	"Modetilbehør & Personlig pleje" => array(
 		"Accessorize" => array(
 			"telefon" => "86 13 50 35",
@@ -532,9 +517,7 @@
 			"kort" => "<a href='kort.php'>Findes på plan 4</a>",
 			"logo" => "<img src='images/logoer/vibholm_logo.png'/>"
 			),
-		)
-	);
-	$butikker = array(
+		),
 	"Boligindretning & Gaveartikler" => array(
 		"Bahne" => array(
 			"telefon" => "38 40 50 11",
@@ -578,9 +561,7 @@
 			"kort" => "<a href='kort.php'>Findes på plan 5</a>",
 			"logo" => "<img src='images/logoer/sg_logo.png'/>"
 			),
-		)
-	);
-	$butikker = array(
+		),
 	"Sport & Fritid" => array(
 		"Foot Locker" => array(
 			"telefon" => "86 17 98 90",
@@ -606,9 +587,7 @@
 			"kort" => "<a href='kort.php'>Findes på plan 5</a>",
 			"logo" => "<img src='images/logoer/stadium_logo.png'/>"
 			),
-		)
-	);
-	$butikker = array(
+		),
 	"Radio, TV & Elektronik" => array(
 		"3 Mobil" => array(
 			"telefon" => "70 31 37 47",
@@ -646,9 +625,7 @@
 			"kort" => "<a href='kort.php'>Findes på plan 4</a>",
 			"logo" => "<img src='images/logoer/telenor_logo.png'/>"
 			),
-		)
-	);
-	$butikker = array(
+		),
 	"Dagligvarer" => array(
 		"Den Græske Delikatesse" => array(
 			"telefon" => "86 17 61 55",
@@ -674,9 +651,7 @@
 			"kort" => "<a href='kort.php'>Findes på plan 4</a>",
 			"logo" => "<img src='images/logoer/summerbird_logo.png'/>"
 			),
-		)
-	);
-	$butikker = array(
+		),
 	"Service" => array(
 		"Centerinformation" => array(
 			"telefon" => "70 20 89 09",
@@ -702,9 +677,7 @@
 			"kort" => "Findes på plan 7",
 			"logo" => ""
 			),
-		)
-	);
-	$butikker = array(
+		),
 	"Restaurant & Café" => array(
 		"Baresso Coffee" => array(
 			"telefon" => "87 31 82 00",
@@ -778,9 +751,7 @@
 			"kort" => "<a href='kort.php'>Findes på plan 4</a>",
 			"logo" => "<img src='images/logoer/sunset_logo.png'/>"
 			),
-		)
-	);
-	$butikker = array(
+		),
 	"Cinemaxx" => array(
 		"Cinemaxx" => array(
 			"telefon" => "86 17 30 77",
@@ -801,6 +772,7 @@
 	}
 }
 ?>
-</body>
-</html>
+<?php
+	include("includes/footer.inc.php");
+?>
 
