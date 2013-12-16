@@ -1,12 +1,7 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Information</title>
-<link rel="stylesheet" href="css/reset.css" />
-<link rel="stylesheet" href="css/style.css" />
-</head>
+<?php
+	$pagetitle ="Information";
+	include("includes/header.inc.php");
+?> 
 
 <body>
 	<h1>Information</h1><hr> <!--styles som border i css-->
@@ -37,7 +32,6 @@
             <p class="infotekst">Ved køb for min. kr. 50,- i Kvickly refunderer vi den 1. times parkering. Ligeledes kan du ved besøg i CinemaxX få refunderet parkering der ligger efter kl. 19.00 i hverdage og kl. 18.00 i weekender.</p> 
             <p class="infotekst">I begge tilfælde skal du trække en p-billet ved indkørslen som skal stemples i henholdsvis Kvickly eller CinemaxX. Refundering af p-billet kan kun ske en gang. Altså kan der ikke opnås gratis parkering både ved CinemaxX og Kvickly på samme billet. For yderligere henvendelser vdr. p-anlægget kontakt venligst JustPark på:<a href="mailto: info@justpark.dk">info@justpark.dk</a></p>
      </article>
-     
-     
-</body>
-</html>
+<?php
+	include("includes/footer.inc.php");
+?>
