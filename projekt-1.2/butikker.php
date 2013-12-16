@@ -790,6 +790,16 @@
 			),
 		)
 	);
+	
+	foreach($butikker as $kategori => $kategori_butikker){
+	print_r($butikker);
+	echo "<h1>$kategori</h1>";
+	foreach($kategori_butikker as $butiknavn => $butikdata){
+		echo "<h2>$butiknavn</h2>";
+		$telefon = $butikdata["telefon"];
+		echo "<p>$telefon</p>";
+	}
+}
 ?>
 </body>
 </html>
