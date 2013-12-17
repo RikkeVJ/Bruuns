@@ -2,6 +2,7 @@
 	$pagetitle ="Events";
 	include("includes/header.inc.php");
 ?> 
+<h1 class="overskrift">Events</h1>
 <div class="streg">
     <img class="eventimg" src="images/events/udsalg.jpg" alt="udsalg">
     <h2 class="eventoverskrift">Udsalget starter!</h2>
@@ -24,7 +25,7 @@
     <img class="eventimg" src="images/events/kongsted.jpg" alt="sange">
     <h2 class="eventoverskrift">De bedste julesange</h2>
     <p class="eventtekst">Tid: 29-11-2013 18:00:00</p>
-    <p class="eventtekst">Sted: Plan 5</p>
+   	<p class="eventtekst">Sted: Plan 5</p>
     <p class="eventtekst">Lyt til julens bedste sange</p>
     <a class="eventtekst" href="event3.php">Læs mere her >></a>
 </div>
@@ -55,6 +56,7 @@
     <p class="eventtekst">Mød WulffMorgenthaler I Bog & idé Bruun´s Galleri, lørdag d. 14 december kl. 14.00</p>
     <a class="eventtekst" href="event6.php">Læs mere her >></a>
 </div>
+<div class="margin"></div>
 <?php
 	include("includes/footer.inc.php");
 ?>

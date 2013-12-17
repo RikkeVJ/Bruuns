@@ -68,6 +68,7 @@ onclick="window.open(setit.options[setit.selectedIndex].value)">
 			<img src="images/kortoverbruuns.png" alt="link til kort"/>
         </a>
 	</div>
+<div class="margin"></div>
 <?php
 	include("includes/footer.inc.php");
 ?>

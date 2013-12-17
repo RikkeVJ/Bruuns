@@ -2,15 +2,15 @@
 	$pagetitle ="Åbningstider";
 	include("includes/header.inc.php");
 ?> 
-	<h1>Åbningstider</h1>
+	<h1 class="overskrift">Åbningstider</h1>
     
     
-<table>
+<table id="tabel">
 	<thead>
       	<tr>
         	<th scope="col"> &nbsp </th>
-         	<th scope="col">Bruun's Galleri</th>
-            <th scope="col">Kvickly</th>
+         	<th class="tabeloverskrift" scope="col">Bruun's Galleri</th>
+            <th class="tabeloverskrift" scope="col">Kvickly</th>
            
          </tr>
      </thead>
@@ -50,7 +50,8 @@
          	<td>10.00-20.00</td>
             <td>8.00-20.00</td>
        	</tr>
-      </table>      
+      </table>  
+<div class="margin"></div>    
 <?php
 	include("includes/footer.inc.php");
 ?>

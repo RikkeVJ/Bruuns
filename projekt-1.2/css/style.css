@@ -125,6 +125,25 @@ body{
 	margin-top:2%;
 	margin-left:1%;
 }
+/*overskrift på undersider*/
+.overskrift{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:40px;
+	margin-top:2%;
+	margin-left:3%;
+}
+/*baggrund på undersider*/
+.box{
+	background-color:rgba(0,0,0,0.5);
+	padding-bottom:2%;
+	margin:2% 5% 2% 5%;
+	width:90%;
+}
+.margin{
+	height:10px;
+	margin-top:2%;
+	padding-top:2%;
+}
 /*kontaktside*/
 #formular{
 	margin-left:1%;
@@ -173,27 +192,156 @@ textarea{
 	height:200px;
 	border: 1px #000 solid;
 }
-/*Eventside*/
+/*events.php*/
 .eventimg{
 	width:168px;
 	padding-left:3%;
 	padding-top:2%;
 }
 .streg{
-	width:100%;
+	width:90%;
 	border-top: solid 2px #555453;
 	margin-top:1%;
+	background-color:rgba(0,0,0,0.5);
+	margin-left:5%;
+	margin-right:5%;
 }
 .eventoverskrift{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:24px;
-	margin-bottom:0.5%;
+	margin-bottom:0.7%;
 	margin-left:3%;
+	color:#ffae3d;
 }
 .eventtekst{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:18px;
-	color:#000;
+	color:#dcdcdc;
 	text-decoration:none;
 	margin-left:3%;
+	padding-bottom:1%;
 }
+
+/*kort.php*/
+.kortoverskrift{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:20px;
+	border-top: solid 2px #555453;
+	margin-left:2%;
+	margin-top:1%;
+	padding-top:1%;
+}
+.plan45{
+	margin-top:2%;
+	margin-left:2%;
+	max-width:400px;
+	width:100%;
+	height:auto;
+	padding-bottom:3%;
+	display:block;
+}
+/* butikker.php*/
+#menu{
+	width:80%;
+	background-color:rgba(0,0,0,0.7);
+	margin:2% 10% 2% 10%;
+}
+.menupunkt{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration:none;
+	font-size:24px;
+	color:#ffae3d;
+	margin-left:3%;
+	height:30px;
+	padding-top:2%;
+}
+.undermenupunkt{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration:none;
+	font-size:18px;
+	color:#c7c794;
+	margin-left:5%;
+	height:0;
+	padding-bottom:3%;
+}
+.undermenu{
+	/*height:0;*/
+	transition: 1s ease-in;
+}
+a{
+	width:100%;
+	display:block;
+}
+.undermenu:target{
+	height:auto;
+}
+/*
+.undermenu{
+	height: 0px;
+	transition: 1s ease-in;
+}
+
+a{
+	width: 100%;
+	display: block;
+}
+
+a.menupunkt{
+	background-color:#292929;
+	color: #fff;
+	height: 30px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration:none;
+	font-size:24px;
+}
+
+a.undermenupunkt{
+	background-color:#f90;
+	color: #CCC;
+	height: 0px;
+	transition: 0.3s ease-in;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration:none;
+	font-size:18px;
+}
+
+.undermenu:target{
+	height: auto;
+}
+
+.undermenu:target a{
+	height: 30px;
+}
+
+#boxundermenuen{
+	background-color:#292929;
+	width: 200px;
+	margin: 0 0 0 10px;
+	height: 500px;
+}*/
+/*vis_butik*/
+.butiktekst{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:18px;
+	color:#000;
+	text-decoration:none;
+}
+/* åbningstider.php*/
+.tabeloverskrift{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:20px;
+}
+#tabel{
+	padding-top:2%;
+	border-top: solid 2px #555453;
+	margin-top:1%;
+	width:80%;
+	margin-left:10%;
+}
+tr th{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:16px;
+	margin-left:2%;
+	margin-top:1%;
+}
+
