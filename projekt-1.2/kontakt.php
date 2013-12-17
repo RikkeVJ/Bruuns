@@ -2,16 +2,17 @@
 	$pagetitle ="Kontakt";
 	include("includes/header.inc.php");
 ?> 
-	<h1>Kontakt</h1><hr>
+	<h1 class="kontaktoverskrift">Kontakt</h1><hr>
 	<article>
     	<h2 class="kontaktoverskrift">Bruun's Galleri</h2>
 			<p class="adresse">M.P. Bruuns Gade 25</p>
         	<p class="adresse">8000 Aarhus</p>
         	<p class="adresse">Tlf: 70 20 89 09</p>
         <h2 class="kontaktoverskrift">Centerinformation</h2>
-        	<p class="centerinfo">Har du glemt noget i centeret, eller søger du en bestemt butik? Så er det i vores centerinformation du henvender dig.</p>
-            <p class="centerinfo">Du finder os på Plan 4 overfor Kvickly.</p>
-            <p class="centerinfo">Det er også her du kan købe gavekort, billetter til vores arrangementer og få udleveret diplom hvis du har gennemført vores børnespil etc.</p>   
+        	<p class="centerinfo">Har du glemt noget i centeret, eller søger du en bestemt butik?</p>
+            <p class="centerinfo">Så er det i vores centerinformation du henvender dig.</p>
+            <p class="centerinfo">Du finder os på plan 4 overfor Kvickly.</p>
+            <p class="centerinfo">Det er også her du kan købe gavekort, billetter til vores arrangementer og få udleveret diplom, hvis du har gennemført vores børnespil etc.</p>   
 	</article>
 	
 	<form id="formular" action="modtag.php" method="post">
