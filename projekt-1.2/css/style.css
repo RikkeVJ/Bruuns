@@ -149,13 +149,6 @@ body{
 	margin-left:1%;
 	margin-top:2%;
 }
-.adresse{
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size:18px;
-	color:#000;
-	text-decoration:none;
-	margin-left:1%;	
-}
 .centerinfo{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:18px;
@@ -164,35 +157,16 @@ body{
 >>>>>>> b4608c385c320bf8e887cef5b9c72ddd6c134033
 	margin-left:1%;
 }
-label, input, select{
+label, input,selct{
 	float:left;
 }
 label{
 	clear:both;
 	width:150px;
 	text-align:right;
-	margin-left:2%;
-	padding-top:6px;
+	margin-left
 	font-family: 'Source Sans Pro', sans-serif;
-	color:#FFF;
-}
-#navn{
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size:18px;
 	color:#000;
-	margin-left:3%;
-}
-#email{
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size:18px;
-	color:#000;
-	margin-left:3%;
-}
-#besked{
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size:18px;
-	color:#000;
-	margin-left:3%;
 }
 form{
 	margin:1em;
@@ -208,18 +182,19 @@ form{
 	font-size:16px;
 	width:204px;
 	padding-bottom:4px;
-	
 }
 input{
 	width:200px;
 	height:25px;
 	margin-bottom:5px;
 	border:1px #000 solid;
+	margin-left:15%;
 }
 textarea{
 	width:200px;
 	height:200px;
 	border: 1px #000 solid;
+	margin-left:15%;
 }
 <<<<<<< HEAD
 /*events.php*/
