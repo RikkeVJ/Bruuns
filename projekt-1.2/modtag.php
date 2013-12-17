@@ -13,10 +13,10 @@
 	$success = mail($mailto, $subject, $besked, $header);
 	
 	if($success){
-		echo "<h1>Du har nu sendt en besked, tak!</h1>";
+		echo "<h1 class='modtaget'>Du har nu sendt en besked, vi ville vende tilbage til dig så hurtigt som muligt. </h1>";
 	}
 	else{
-		echo "<h1>Fejl - Noget gik galt!</h1>";
+		echo "<h1 class='modtaget'>Fejl - Noget gik galt!</h1>";
 	}
 
 	include("includes/footer.inc.php");

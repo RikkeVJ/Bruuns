@@ -23,7 +23,6 @@ body{
 	overflow:hidden;
 	margin-top:2%;
 	}
-
 	.container div{
 	width: 100%;
 	height: 100%;
@@ -36,27 +35,22 @@ body{
 	.container img{
 		max-width:420px;
 	}
-
 	#first{
 	opacity: 1;
 	-webkit-animation: slide_first 20s linear infinite;
 	}
-
 	#second{
 	opacity: 0;
 	-webkit-animation: slide_second 20s linear infinite;
 	}
-
 	#third{
 	opacity: 0;
 	-webkit-animation: slide_third 20s linear infinite;
 	}
-
 	#fourth{
 	opacity: 0;
 	-webkit-animation: slide_fourth 20s linear infinite;
 	}
-
 
 	@-webkit-keyframes slide_first{
 	0% { opacity: 1; left: 0%; }
@@ -125,7 +119,7 @@ body{
 	margin-top:2%;
 	margin-left:1%;
 }
-/*kontaktside*/
+/*Kontaktside*/
 .kontaktoverskrift{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:24px;
@@ -258,4 +252,5 @@ textarea{
 	float:left;
 	margin-left:10%;
 	margin-top:5%;
+	padding-bottom:10%;
 }
